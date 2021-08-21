@@ -1,3 +1,4 @@
+c:\users\administrator\appdata\roaming\uTorrent\uTorrent.exe && "C:\Program Files\Allway Sync\Bin\syncappw.exe" && "C:\Program Files\Mem Reduct\memreduct.exe"
 
 timeout /t 60
 cd C:\install\torrent-autoremove-tool-master
@@ -15,5 +16,3 @@ echo install and run block
 cd C:\install\torrent-manager-main
 TIMEOUT /T 120
 start npm i && start node src/index.js
-
-c:\users\administrator\appdata\roaming\uTorrent\uTorrent.exe && "C:\Program Files\Allway Sync\Bin\syncappw.exe"
