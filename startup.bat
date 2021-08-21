@@ -6,12 +6,12 @@ echo installing dependencies...
 cd app
 pip install -r requirements.txt
 
-TIMEOUT /T 120 /NOBREAK 
+TIMEOUT /T 120
 cd app
-python main.py
+start python main.py
 
 echo install and run block
 
 cd C:\install\torrent-manager-main
-TIMEOUT /T 120 /NOBREAK
+TIMEOUT /T 120
 npm i && node src/index.js
