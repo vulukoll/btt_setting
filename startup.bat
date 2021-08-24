@@ -1,4 +1,4 @@
-start "" "C:\Program Files\Mem Reduct\memreduct.exe"
+start "" "C:\Program Files\memreduct\memreduct.exe"
 
 timeout /t 2
 
