@@ -1,6 +1,15 @@
-c:\users\administrator\appdata\roaming\uTorrent\uTorrent.exe && "C:\Program Files\Allway Sync\Bin\syncappw.exe" && "C:\Program Files\Mem Reduct\memreduct.exe"
+start "" "C:\Program Files\Mem Reduct\memreduct.exe"
 
-timeout /t 60
+timeout /t 2
+
+start "" "c:\users\administrator\appdata\roaming\uTorrent\uTorrent.exe"
+
+timeout /t 2
+
+start "" "C:\Program Files\Allway Sync\Bin\syncappw.exe"
+
+timeout /t 2
+
 cd C:\install\torrent-autoremove-tool-master
 
 echo installing dependencies...
